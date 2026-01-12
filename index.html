@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a3fd8bb30d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="header-options">
+        <h2>Find your film</h2>
+        <a href="watchlist.html">Go to your watch list</a>
+      </div>
+    </header>
+    <main>
+      <div id="search-bar">
+        <label for="movie-search"></label>
+        <input
+          type="search"
+          name="movie-search"
+          placeholder="Search for a movie"
+          id="movie-search"
+        />
+        <button type="submit" form="movie-search-form" id="search-button">
+          Search
+        </button>
+      </div>
+    </main>
+
+    <div id="movie-list"></div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
